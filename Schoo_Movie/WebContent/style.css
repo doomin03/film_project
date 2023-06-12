@@ -1,0 +1,137 @@
+body {
+	background-color: black;
+	color: #D2D1D5;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #2e2649;
+}
+
+tr:nth-child(odd) {
+	background-color: #423b5b;
+}
+
+th {
+	background-color: #342F44;
+	color: white;
+}
+
+.noBorder {
+	border: none !important;
+}
+
+#user_bar {
+	margin-left: 65%;
+	border-bottom: 0px;
+}
+
+#topMenu {
+	margin: 0 auto;
+	height: 30px;
+	margin-left: 0.5%;
+	width: 850px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	position: absolute;
+}
+
+#topMenu ul li {
+	list-style: none;
+	color: white;
+	background-color: #2d2d2d;
+	float: left;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#topMenu .menuLink {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 150px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#topMenu .menuLink:hover {
+	color: red;
+	background-color: #4d4d4d;
+}
+
+#main_poster {
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	height: 400px;
+	width: 900px;
+	background-color: #2d2d2d;
+	margin-top: 70px;
+}
+
+#main_poster table {
+	margin-left: auto;
+	margin-right: auto;
+}
+#main_poster input[type=text]{
+	margin-top: 50px;
+}
+
+
+#main_poster1 {
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	height: 400px;
+	width: 900px;
+	background-color: #2d2d2d;
+	margin-top: 500px;
+}
+
+#main_poster1 table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#main_poster3 {
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	height: 400px;
+	width: 900px;
+	background-color: #2d2d2d;
+	margin-top: 70px;
+}
+
+#main_poster3 table {
+	margin-left: auto;
+	margin-right: auto;
+}
+#main_poster3 input[type=text]{
+	margin-top: 50px;
+	width: 40%;
+	height: 12%;
+}
